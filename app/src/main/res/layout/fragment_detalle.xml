@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".ui.home.DetalleFragment">
+
+
+    <TextView
+        android:id="@+id/txtDatos"
+        android:layout_width="313dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="148dp"
+        android:text="Información detallada "
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Información detallada"></TextView>
+
+    <TextView
+        android:id="@+id/txtnombre"
+        android:layout_width="231dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:text="sobre mi app "
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDatos" />
+
+    <TextView
+        android:id="@+id/txtdescripcion"
+        android:layout_width="361dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="16dp"
+        android:text="DESCRIPION DE PERROS Y GATOS "
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtnombre" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
